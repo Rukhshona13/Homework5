@@ -249,6 +249,108 @@ box-sizing: border-box;
     flex-direction: column;
     align-self: center;
 }
+.box6{
+    
+    width: 100%;
+    height:1340px;
+
+    background-image: url(./3.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+justify-content: space-evenly;
+
+}
+.cover{
+     width: 100%;
+    height:1340px;
+    background-color:rgba(0, 0, 0, 0.4) ;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    justify-content: center;
+    align-items: center;
+}
+.text6{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+    align-items: center;
+
+}
+.text6 span{
+    font-size: 28px;
+    color: rgba(33, 158, 188, 1);
+}
+.text6 h1{
+    
+    width: 650px;
+    font-size: 64px;
+    color: white;
+}
+.box6 button{
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.1);
+}
+.b6{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   text-align: center;
+   align-items: center;
+}
+.b6 h6{
+    color: white;
+    width: 300px;
+    font-size: 28px;
+    font-weight: 500;
+}
+.b6 p{
+
+    color:rgba(255, 255, 255, 0.7) ;
+    font-size: 18px;
+    width: 300px;
+}
+.box06{
+
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    grid-template-rows: repeat(2,320px);
+    gap: 30px;
+}
+.g1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+.g2{
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+.g3{
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+.g4{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+.g5{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+.g6{
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
 
 
 
@@ -333,4 +435,64 @@ height: 598px;
     .text4 p{
         width: 350px;
     }
+    .box5 img{
+        width: 400px;
+    }
+    .text5 h1{
+        font-size: 40px;
+
+    }
+    .text5 p{
+        width: 300px;
+font-size: 14px;
+    }
+    .box5{
+       
+        gap: 20px;
+    }
+    .box6{
+      background-position: center;
+background-size: 300% 200%;
+width: 100%;
+height: 1340px;  
+    }
+    .box6 h1{
+        font-size: 48px;
+        width: 300px;
+    }
+   .cover{
+    justify-content: none;
+    align-items: none;
+
+   }
+   .text6{
+    margin-top: 1300px;
+   }
+    .box06{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6,320px);
+    gap: 30px;
+}
+.g1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+.g2{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+.g3{
+   display: none;
+}
+.g4{
+    display: none;
+}
+.g5{
+    display: none;
+}
+.g6{
+    display: none;
+}
 }
